@@ -45,7 +45,7 @@
 @font-face {
   font-family: roboto-fallback;
   size-adjust: 100.06%;
-  ascent-override: 95%;
+  ascent-override: 100%;
   src: local('Arial');
 }
 
@@ -179,7 +179,7 @@ a.button.secondary, button.secondary {
 main input {
   font-size: 1.25rem;
   width: 100%;
-  max-width: 50rem;
+  //max-width: 50rem;
   display: block;
   margin-bottom: 1rem;
   padding: 0.75rem 0.6rem;
@@ -240,8 +240,9 @@ main .section {
 
 @media (min-width: 900px) {
   .section > div {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: auto;
+    width: 100%;
   }
 }
 
