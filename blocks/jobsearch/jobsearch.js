@@ -23,5 +23,3 @@ for (let block of blocks) {
     //block.appendChild(div);
     block.insertBefore(div, block.children[1]);
 }
-
-alert("ok");
